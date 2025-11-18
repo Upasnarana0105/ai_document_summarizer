@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Document Summarizer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>AI-Powered Document Summarizer</h1>
+    <div class="card">
+      <label class="file-label">Upload PDF or TXT</label>
+      <input type="file" id="fileInput" accept=".pdf,.txt" />
+      <button id="uploadBtn">Upload & Summarize</button>
+    </div>
+    <div id="result" class="card hidden">
+      <h2 id="title"></h2>
+      <p><strong>Summary</strong></p>
+      <p id="summary"></p>
+      <p><strong>Keywords</strong></p>
+      <p id="keywords"></p>
+      <p><strong>Sentiment</strong> <span id="sentiment"></span></p>
+      <p><strong>Highlights</strong></p>
+      <ul id="highlights"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

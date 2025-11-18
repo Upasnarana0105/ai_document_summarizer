@@ -1,0 +1,7 @@
+body{font-family:Inter, Arial, sans-serif;background:#f3f4f6;margin:0;padding:24px}
+.container{max-width:820px;margin:0 auto}
+h1{color:#111827;text-align:center}
+.card{background:white;padding:16px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.06);margin-bottom:16px}
+.file-label{display:block;margin-bottom:8px;font-weight:600}
+#uploadBtn{margin-top:8px;padding:10px 14px;border-radius:8px;border:none;cursor:pointer;background:#2563eb;color:white}
+.hidden{display:none}

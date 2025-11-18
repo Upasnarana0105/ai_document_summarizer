@@ -1,0 +1,7 @@
+flask
+PyPDF2
+transformers
+torch
+sentencepiece
+spacy
+nltk
