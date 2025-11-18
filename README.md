@@ -26,7 +26,7 @@ Full-stack application that extracts text from uploaded PDFs or text files and r
    ```
 
 4. Open `frontend/index.html` in your browser and use the UI.
-   - The frontend expects the backend at `http://127.0.0.1:5000`.
+   - The frontend expects the backend at `http://192.168.43.222:5000`.
    - If you deploy, change the API URL in `frontend/script.js` accordingly.
 
 ## Notes
